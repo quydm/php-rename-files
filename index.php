@@ -3,6 +3,9 @@
 // hide exif_imagetype notice
 error_reporting(E_ALL & ~E_NOTICE);
 
+// set your default timezone, in my case is Asia/Ho_Chi_Minh
+date_default_timezone_set('your timezone');
+
 $dir = 'input directory here';
 
 // step 1: rename files to prevent duplicate
